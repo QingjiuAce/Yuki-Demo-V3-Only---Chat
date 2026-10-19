@@ -1,0 +1,48 @@
+{
+  "step": 17000,
+  "loss": 0.5669402435421944,
+  "params": 533952,
+  "config": {
+    "vocab_size": 1646,
+    "hidden_dim": 64,
+    "num_layers": 9,
+    "num_heads": 4,
+    "ff_dim": 162,
+    "mlp": "swiglu",
+    "max_seq_len": 128,
+    "eps": 1e-06,
+    "rope_theta": 10000.0,
+    "batch_size": 16,
+    "learning_rate": 0.0005,
+    "weight_decay": 0.0,
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "adam_eps": 1e-08,
+    "grad_clip": 1.0,
+    "max_steps": 17000,
+    "log_every": 500,
+    "save_every": 200,
+    "sample_every": 0,
+    "seed": 1337,
+    "strip_line_numbers": true,
+    "doc_per_line": true,
+    "shuffle_docs": true,
+    "data_dir": "data",
+    "out_dir": "checkpoints",
+    "tokenizer_path": "checkpoints/tokenizer.json",
+    "temperature": 0.8,
+    "top_k": 40,
+    "max_new_tokens": 200
+  },
+  "vocab_sha256": "fcb0885917d8a5cd6ff52e3a5a40e3d3d76285e4ebcab5d87db5d8b25027d86a",
+  "opt_t": 17000,
+  "rng_state": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 85387822957234336148414076829797333679,
+      "inc": 57444059933479602987059412884031907751
+    },
+    "has_uint32": 0,
+    "uinteger": 2842447250
+  }
+}

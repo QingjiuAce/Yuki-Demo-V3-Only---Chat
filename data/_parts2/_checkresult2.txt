@@ -1,0 +1,24 @@
+﻿near-collision count: 15
+  substring | 你在不在 || 回头的时候你在不在
+  substring | 我在吃饭饭 || 我在吃饭
+  substring | 我在追剧中 || 我在追剧
+  jaccard=0.60 | 我要去睡咯 || 我要去睡了
+  substring | 记得祝我生日快乐 || 生日快乐
+  substring | 情人节快乐哦 || 情人节快乐
+  jaccard=0.67 | 早上好哦 || 早上好
+  substring | 天黑了，晚上好呀 || 晚上好呀
+  substring | 晚上好呀，在吗 || 晚上好呀
+  jaccard=0.60 | 那我先走咯 || 那我先走啦
+  jaccard=0.67 | 谢谢你了Yuki || 谢谢你
+  jaccard=0.71 | 你是不是不喜欢我 || 你是不是喜欢我
+  substring | 我热得受不了 || 热得受不了
+  substring | 我到家了，累死了 || 我到家了
+  substring | 我到家了，累得够呛 || 我到家了
+---
+格式检查:
+总行数: 1349 (期望 449*3 + 3 = 1350? -> 1349 )
+非法行: []
+结构合规: True 组数: 450
+末尾空行结尾: False
+源答案数: 150 输出答案数: 225
+答案= 源答案各3次依序: False

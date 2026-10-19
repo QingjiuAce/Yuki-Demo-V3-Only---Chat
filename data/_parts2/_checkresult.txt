@@ -1,0 +1,12 @@
+﻿src pairs: 150
+out pairs: 450
+out 用户 lines: 450
+out Yuki lines: 450
+answers逐字一致(顺序+重复3次): True
+questions: 450 unique: 450
+dups: []
+等于源问法的: []
+汉字数越界: []
+corpus 用户 lines: 2150
+与 corpus 撞车数: 0
+撞车列表: []

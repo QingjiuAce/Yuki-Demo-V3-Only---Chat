@@ -1,0 +1,5 @@
+﻿total lines before: 1349
+replaced first-only: ['hello呀', '你心里有我吗', '我回来咯', '我困得眼睛都合上了', '我是不是你的骄傲', '我睡醒啦', '我肚子空了', '我这就去睡', '晚上好呀Yuki', '谢谢你一直陪着我']
+still: 736 用户：我醒来啦
+still: 766 用户：我这就去睡
+total lines after: 1349
