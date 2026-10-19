@@ -65,15 +65,13 @@ Yuki - Demo/
 pip install -r requirements.txt
 ```
 
-本机可直接用装了 numpy 的解释器：
+可直接用装了 numpy 的解释器：
 
 ```powershell
-& 'C:\Users\36833\.workbuddy\binaries\python\versions\3.13.12\python.exe' train.py
+& python train.py
 ```
 
-> 注意：系统的 Python 3.14 没有装 numpy，请用上面这个（带 numpy 2.5.1）的解释器，
-> 或者自己 `pip install numpy`。
-> （旧的 `.dsh\dsh-runtimes\...\python.exe` 路径已失效，别再用了。）
+> 注意：如系统的 Python 3.14 没有装 numpy，请自行`pip install numpy`
 
 ---
 
